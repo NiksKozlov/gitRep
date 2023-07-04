@@ -1,0 +1,21 @@
+.Searchbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchField {
+    font-size: medium;
+    height: 56px;
+    width: 100%;
+    border: 1px solid #A2A3A4;
+}
+
+.searchButton {
+    background: #c5cef8;
+    padding: 0;
+    border: 1px solid #A2A3A4;
+    height: 60px;
+    width: 60px;
+}
