@@ -1,4 +1,4 @@
-import {FC, HTMLAttributes, memo, ReactNode} from 'react';
+import {FC, HTMLAttributes, memo} from 'react';
 import cls from './Card.module.css';
 import {classNames} from "../../lib/classNames/classNames";
 

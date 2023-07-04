@@ -21,7 +21,7 @@ export const itemSlice = createSlice({
     initialState,
     reducers: {},
     extraReducers: {
-        [fetchItems.pending.type]: (state, action: PayloadAction<FetchItemsResponse>) => {
+        [fetchItems.pending.type]: (state) => {
             state.isLoading = true
         },
         [fetchItems.fulfilled.type]: (state, action: PayloadAction<FetchItemsResponse>) => {
